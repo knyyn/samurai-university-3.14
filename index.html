@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<head>
+  <title>samurai university</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="samurai university" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css" />
+  <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ヘッダー -->
+   <header>
+      <!-- ロゴエリア -->
+      <div class="area_logo_header_1">
+        <a class="logo" href="index.html">
+          <img src="wp-admin/images/logo_big.png" class="imag"><span>SAMURAI UNIVERSITY</span>
+        </a>
+        <!-- PC用ナビゲーション -->
+        <nav class="nav_pc">
+          <ul class="list_nav_header_1">
+            <li>
+              <a class="nav_link" href="index.html"> NEWS <p>ニュース</p></a>
+            </li>
+            <li>
+              <a class="nav_link" href="index.html"> EVENT <p>イベント</p></a>
+            </li>
+            <li>
+              <a class="nav_link" href="index.html"> COURSES <p>コース</p></a>
+            </li>
+            <li>
+              <a class="nav_link" href="index.html"> ABOUT US <p>侍大学について</p></a>
+            </li>
+          </ul>
+        </nav>
+        <!-- スマホ用メニューボタン -->
+        <nav class="menu_sp">
+          <!-- ナビゲーションを開く -->
+          <div class="hamburger_open" onclick="document.getElementById('nav_sp').style.display='block'">
+            <span class="ham_open"></span>
+            <span class="ham_open"></span>
+            <span class="ham_open"></span>
+          </div>
+        </nav>
+        <!-- メニューの中身 -->
+        <!-- ナビゲーションを閉じる -->
+        <nav class="nav_sp">
+          <div class="hamburger_close" onclick="document.getElementById('nav_sp').style.display='block'">
+            <span class="ham_close_1"></span>
+            <span class="ham_close_2"></span>
+          </div>
+          <!-- メニューリスト -->
+          <ul class="list_nav_header_2">
+            <div class="area_logo_header_1">
+              <a class="logo" href>
+                <img src="wp-admin/images/logo_big.png" class="imag"><span>SAMURAI UNIVERSITY</span>
+              </a>
+            </div>
+            <li>
+              <a href="index.html" onclick="document.getElementById('nav_sp').style.display='none'">NEWS<p>ニュース</p></a>
+            </li>
+            <li>
+              <a href="index.html" onclick="document.getElementById('nav_sp').style.display='none'">EVENT<p>イベント</p></a>
+            </li>
+            <li>
+              <a href="index.html" onclick="document.getElementById('nav_sp').style.display='none'">COURSES<p>コース</p></a>
+            </li>
+            <li>
+              <a href="index.html" onclick="document.getElementById('nav_sp').style.display='none'">ABOUT US<p>侍大学について</p></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+   </header>
+   <!-- ヘッダー　ここまで -->
+   <!-- メインビィジュアル -->
+  <main>
+    <div id="main_visual">
+      <div class="main_visual_pic1">
+        <img src="wp-admin/images/top1_1200_630.jpg" class="main_pic">
+        <div class="main_visual_pic2">
+            <img src="wp-admin/images/logo_big_slide.png" class="logo2">
+            <p class="main_title">SAMURAI UNIVERSITY</p>
+            <p class="main_contents">SAMURAI大学の理念には「プログラミングを通して、 国際社会に貢献する豊かな教養を備えた人材の育成」と 「公正な世界観に基づき、 時代と社会の要請に応えていく実学」の思いが込められています</p>
+        </div>
+      </div>
+    </div>
+    <!-- ニュースとイベントここから -->
+   <div id="div_1">
+    <div class="news_contents_1">
+      <div class="news_contents_2">
+        <div class="all-contents">
+          <div class="title">
+            <div class="top_title">NEWS</div>
+            <div class="top_title_sub">ニュース</div>
+          </div>
+          <div>
+            <div class="news_topic">
+              <p class="date">2024-01-08</p>
+              <p class="news_report">卒業式</p>
+            </div>
+            <div class="news_topic">
+              <p class="date">2024-01-07</p>
+              <p class="news_report">入学式</p>
+            </div>
+            <div class="news_topic">
+              <p class="date">2024-01-06</p>
+              <p class="news_report">AIコース登場</p>
+            </div>
+          </div>
+        </div>
+        <div class="all-contents">
+          <div class="title">
+            <div class="top_title">EVENT</div>
+            <div class="top_title_sub">イベント</div>
+          </div>
+          <div class="event">
+            <div class="calendar_box">
+              <div class="calendar_contents">
+                <div class="calendar_month">SEP</div>
+                <div class="calendar_day"><span>30</span></div>
+              </div>
+            </div>
+            <div class="event_contents">
+              <p class="event_title">AWSハンズオンセミナー</p>
+              <p class="event_post_contents">9月30日 新宿◯◯ビル8Fにて、Raspberry Piを使った、センサーを利用した自動走行ハンズ...</p>
+            </div>
+          </div>
+          <div class="event">
+            <div class="calendar_box">
+              <div class="calendar_contents">
+                <div class="calendar_month">OCT</div>
+                <div class="calendar_day"><span>8</span></div>
+              </div>
+            </div>
+            <div class="event_contents">
+              <p class="event_title">Raspberry Piハンズオンセミナー</p>
+              <p class="event_post_contents">10月8日　新宿〇〇ビル8Fにて、AWSハンズオンセミナーを開催します。AWSを実際に構築してみます。参加希望者は...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <!-- ニュースとイベントここまで -->
+   <!-- コースここから -->
+   <div id="courses">
+     <section id="all-contents2">
+       <div class="courses_1">
+        <div class="course_2">
+          <div class="courses_title"> 
+            <h2 class="top_title">COURSES</h2>
+            <div class="top_title_sub2">コース</div>
+          </div>
+        </div>
+       </div>
+       <div class="courses_contents">
+        <!-- ループ処理 -->
+        <div class="course">
+          <div class="course_image">
+            <img width="411" height="97"src="wp-admin/images/pic6-4.jpg">
+          </div>
+          <div class="course_body">
+            <h3 class="course_title">法学部</h3>
+          </div>
+          <div class="course_text">
+            <p>法学の視点から人類・インターナショナルに活躍...</p>
+          </div>
+          <div class="course_footer">
+            <div class="course_footer_content">
+              <div class="course_footer_content_2">
+                <a href="index.html">詳細を見る</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course">
+          <div class="coures_image">
+            <img width="411" height="97"src="wp-admin/images/pic6-1.jpg">
+          </div>
+          <div class="course_body">
+            <h3 class="course_title">理工学部</h3>
+          </div>
+          <div class="course_text">
+            <p>未知なる科学技術の世界を開く、New Gen...</p>
+          </div>
+          <div class="course_footer">
+            <div class="course_footer_content">
+              <div class="course_footer_content_2">
+                <a href="index.html">詳細を見る</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course">
+          <div class="coures_image">
+            <img width="411" height="97" src="wp-admin/images/pic6-3.jpg">
+          </div>
+          <div class="course_body">
+            <h3 class="course_title">教育学部</h3>
+          </div>
+          <div class="course_text">
+            <p>広い視野とコミュニケーションスキルを持つ、世...</p>
+          </div>
+          <div class="course_footer">
+            <div class="course_footer_content">
+              <div class="course_footer_content_2">
+                <a href="index.html">詳細を見る</a>
+              </div>
+            </div>
+          </div>
+        </div>
+     </section>
+   </div>
+    <!-- コースここまで -->
+    <!-- 数字ここから -->
+    <div class="counter">
+      <img src="wp-admin/images/pic_chart.png" class="counter_background">
+      </div>
+      <div class="counter_1">
+          <div class="counter_2">
+            <div class="counter_3">
+              <div class="counter_4">
+                <div class="counter_5">
+                  <div class="counter_6">
+                    <div class="counter_7">
+                      <div class="counter_contents">
+                        <p class="professor_counter">教授数</p>
+                        <div class="counter_8">
+                          <img src="wp-admin/images/icon4.png" class="imag2" alt="ロゴ写真">
+                          <p class="counters"><span>335</span>名</p>
+                        </div>
+                      </div>
+                      <div class="counter_contents"> 
+                        <p class="graduate_counter">卒業生徒</p>
+                        <div class="counter_8">
+                          <img src="wp-admin/images/icon3.png" class="imag4" alt="ロゴ写真">
+                          <p class="counters"><span>4526</span>名</p>
+                        </div>
+                      </div>
+                      <div class="counter_contents">
+                        <p class="learning_counter">学習コース</p>
+                        <div class="counter_8">
+                          <img src="wp-admin/images/icon2.png" class="imag2" alt="ロゴ写真">
+                          <p class="counters"><span>12</span>コース</p>
+                        </div>
+                      </div>
+                      <div class="counter_contents">
+                        <p class="award_counter">受賞</p>
+                        <div class="counter_8">
+                          <img src="wp-admin/images/icon1.png" class="imag3" alt="ロゴ写真">
+                          <p class="counters"><span>35</span>回</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- 数字ここまで -->
+  </main>
+    <!-- フッターここから -->
+  <footer>
+    <div class="footer_1">
+      <div class="footer_2">
+        <div class="footer_3">
+          <div class="footer_4">
+            <div class="footer_left">
+              <div class="area_logo_footer">
+                <a class="logo" href="">
+                  <img src="wp-admin/images/logo_big.png" class="imag6" alt="ロゴ写真">
+                </a>
+                <p>SAMURAI UNIVERSITY</p>
+              </div>
+              <div class="samurai_access">
+                <p class="address">〒101-0022<br>東京都千代田区神田練塀町300番地 住友不動産秋葉原駅前ビル5F</p>
+                <p class="phone_number">TEL:03-1234-5678</p>
+                <p class="mail_address">MALL:samurai@example.com</p>
+              </div>
+              <div class="sns_footer">
+                <div class="sns_btns">
+                  <a href=""><img src="wp-admin/images/twitter-square-brands.png"></a>
+                  <a href=""><img src="wp-admin/images/facebook-square-brands.png"></a>
+                </div>
+              </div>
+            </div>
+            <div class="footer_center">
+              <a href="index.html">ニュース</a>
+              <a href="index.html">イベント</a>
+              <a href="index.html">コース</a>
+              <a href="index.html">侍大学について</a>
+            </div>
+            <div class="footer_right">
+              <div class="twitter_timeline">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copy_right">
+      <div class="copy_right_text">Copyright © Samurai University All Rights Reserved.</div>
+    </div>
+  </footer>
+</body>
